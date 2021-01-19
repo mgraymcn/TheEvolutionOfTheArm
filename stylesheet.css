@@ -1,7 +1,7 @@
 html, body {
     padding: 0px;
     margin: 0px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Courier', 'Courier New', monospace;
 }
 
 
@@ -115,6 +115,10 @@ html, body {
     margin-bottom: 10px;
 }
 
+.center {
+    text-align: center;
+}
+
 .about {
     margin: 50px 0;
     background-color: #fff;
@@ -122,6 +126,11 @@ html, body {
 .about p {
     color: #000;
     font-size: 18px;
+}
+.instagram {
+    border: 100px;
+    border-color: #fff;
+    
 }
 
 .presstext {
@@ -137,6 +146,11 @@ html, body {
 
 .album iframe {
     margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
 }
 
 .buy {
@@ -216,10 +230,28 @@ html, body {
     text-decoration: underline;
 }
 
+.right {
+    text-align: center;
+}
 
+.topConnect {
+   
+}
 
+.topConnect a {
+    text-align: center;
+    color: #fff;
+    padding: 6px;
+    text-decoration: none;
+    background-color: #8B4F6B;
+    border-radius: 25%;
+}
+
+.topConnect li {
+    display: inline;
+}
 .footer {
-    background-color: #000;
+    background-color: #8B4F6B;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
