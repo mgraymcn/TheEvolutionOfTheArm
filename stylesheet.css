@@ -140,10 +140,10 @@ ul {
 
 .footer {
     background-color: #fff;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(256, 256, 256, 1)), url(/images/EotAbanner_multicolored_vertical_lines_alone_rotated.png);
-    background-size: cover;
+    background-image: /* linear-gradient(to top, rgba(0, 0, 0, 0), rgba(256, 256, 256, 1)),*/ url(/images/EotAbanner_multicolored_vertical_lines_alone_rotated.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     
     text-align: left;
     text-transform: none;
@@ -250,7 +250,9 @@ ul {
     .header p {
         font-size: 22px;
     }
-    
+    .header {
+        margin-top: -250px;
+    }
     .topRow {
         height: 131px;
         max-height: 131px;
