@@ -71,7 +71,9 @@ ul {
     text-align: center;
     padding: 10px;
 }
-
+#albumTitle {
+    text-decoration: none;
+}
 .linerNotes{
     margin: 10%;
 }
