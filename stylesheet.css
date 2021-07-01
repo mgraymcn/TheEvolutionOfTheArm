@@ -59,7 +59,7 @@ ul {
     align-content: center;
     align-items: center;
 }
-.albumCover img {
+.albumCover img, .albumCover iframe {
     max-width: 25vw;
     max-height: auto;
     border-radius: 10px;
