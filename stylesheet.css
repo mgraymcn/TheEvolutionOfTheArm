@@ -83,6 +83,16 @@ ul {
     text-align: right;
 }
 
+.bandcampRecsRow iframe {
+    max-width: 33vw;
+    min-height: 33vw;
+    max-height: 350px;
+}
+
+.spacerRow {
+    height: 48px; 
+}
+
 .bios {
     color: #000;
     font-size: 16px;
