@@ -55,15 +55,19 @@ ul {
     align-content: center;
     align-items: center;
 }
+
 .albumCover {
     align-content: center;
     align-items: center;
 }
+
 .albumCover img, .albumCover iframe {
-    max-width: 25vw;
+    max-width: 300px;
     max-height: auto;
     border-radius: 10px;
 }
+
+
 
 .albumText {
     background-color: #fff;
