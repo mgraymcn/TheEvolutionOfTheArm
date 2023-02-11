@@ -37,6 +37,84 @@ html, body {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 575px) {
+    .tourTopRow {
+        min-width: 100vw;
+        height: 180px;
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100vw auto;
+        background-position: 12px top;
+        background-repeat: no-repeat;
+    }
+        .topConnect, .topConnect a {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .tourTopRow {
+        min-width: 100vw;
+        height: 250px;
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100vw auto;
+        background-position: 12px top;
+        background-repeat: no-repeat;
+    }
+    .tour-image {
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100% auto;
+        background-blend-mode: darken;
+    }
+    .topConnect, .topConnect a {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .tourTopRow {
+        min-width: 100vw;
+        height: 350px;
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100vw auto;
+        background-position: 12px top;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .tourTopRow {
+        min-width: 100vw;
+        height: 488px;
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100vw auto;
+        background-position: 12px top;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .tourTopRow {
+        min-width: 100vw;
+        height: 588px;
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100vw auto;
+        background-position: 12px top;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media (min-width: 1401px) {
+    .tourTopRow {
+        min-width: 100vw;
+        height: 688px;
+        background-image: url(images/march2023tour.jpg);
+        background-size: 100vw auto;
+        background-position: 12px top;
+        background-repeat: no-repeat;
+    }
+}
+
 ul {
     list-style: none;
 }
