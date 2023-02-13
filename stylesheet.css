@@ -226,6 +226,8 @@ ul {
     text-decoration: none;
     background-color: #fff;
     border-radius: 12px;
+    border: 1px solid;
+    border-color: #8B4F6B;
 }
 
 
